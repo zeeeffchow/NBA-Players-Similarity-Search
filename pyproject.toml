@@ -1,0 +1,8 @@
+[project]
+name = "nba-similarity"
+version = "0.1.0"
+description = "NBA player similarity search with PyTorch and Streamlit"
+requires-python = ">=3.10"
+
+[tool.uv]
+# Just keeping the section in case future config is needed

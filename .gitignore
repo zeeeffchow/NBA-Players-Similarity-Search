@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Data
+*.csv
+*.tsv
+*.xlsx
+*.json
+*.pkl
+
+# Streamlit cache
+.streamlit/
+.cache/
+**/.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# VSCode / IDEs
+.vscode/
+.idea/
+
+# OS / misc
+.DS_Store
+Thumbs.db
+
+# uv / Poetry / PEP 621
+.uv/
+
+# pyproject.toml lock file
+pyproject.lock
