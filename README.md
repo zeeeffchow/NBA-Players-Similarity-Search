@@ -31,6 +31,22 @@ Simply enter a player’s name and explore their closest statistical matches —
 
 ---
 
+## 🧠 How the Autoencoder Works (Briefly)
+An autoencoder is a type of neural network used to learn compressed, meaningful representations of data — in this case, NBA player stats.
+
+Here's how it's used in this app:
+
+- 🏋️ Input: Each player's stats — including points, rebounds, assists, advanced metrics like PER and BPM, and per-36-minute numbers — are normalized and fed into the model.
+
+- 🧠 Encoding: The autoencoder learns to compress each player's stats into a smaller vector (called an embedding) that captures the most important patterns.
+
+- 🔁 Decoding: The model tries to reconstruct the original stats from this compressed version, ensuring the embeddings retain meaningful information.
+
+- 🧮 Similarity: To find similar players, we compute cosine similarity between the embeddings — players with similar patterns in their stats will have similar embeddings.
+
+This approach allows the model to capture deeper relationships in the data that go beyond raw numbers — helping uncover players who might be statistically alike, even if they don’t play for the same team or have the same reputation.
+
+--- 
 
 ## 📦 Installation
 1. Create and activate a virtual environment:
